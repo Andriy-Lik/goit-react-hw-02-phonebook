@@ -39,6 +39,8 @@ export const ContactListBtn = styled.button`
     &:hover,
     &: focus {
         background-color: #303f9f;
+        border: 1px solid skyblue;
+        scale: 1.1;
     }
 `;
     
