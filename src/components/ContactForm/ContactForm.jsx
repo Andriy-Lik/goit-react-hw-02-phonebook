@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from 'prop-types'; 
 import { nanoid } from "nanoid";
 import { Form, FormLabel, FormInput, FormButton } from './ContactForm.styled';
 
@@ -19,7 +20,6 @@ class ContactForm extends Component {
 
     handleSubmit = e => {
         e.preventDefault();
-        console.log(this.state);
         this.props.onSubmit(this.state);
         // Reset
         this.setState({ name: '', number: '' });
@@ -39,7 +39,6 @@ class ContactForm extends Component {
                     value={this.state.name}
                     onChange={this.handleChange}
                 />
-                
 
                 <FormLabel htmlFor={this.numberInpudId}>Number</FormLabel>
                 <FormInput
@@ -56,6 +55,10 @@ class ContactForm extends Component {
             </Form>
         );
     }
+}
+
+ContactForm.propTypes = {
+    onSubmit: PropTypes.func.isRequired
 }
 
 export default ContactForm;
