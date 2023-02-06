@@ -18,7 +18,7 @@ export const FormInput = styled.input`
     width: 300px;
     height: 30px;
     padding: 0;
-    border: 1px solid black;
+    border: 2px solid grey;
     border-radius: 3px;
 `;
 
@@ -29,7 +29,7 @@ export const FormButton = styled.button`
     padding: 0;
     background-color: #3f51b5;
     color: white;
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 3px;
 
     &:hover,

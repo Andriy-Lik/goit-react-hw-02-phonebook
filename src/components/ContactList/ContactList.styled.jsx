@@ -12,7 +12,7 @@ export const ContactListItem = styled.li`
     align-items: center;
     width: 400px;
     height: 45px;
-    border: 2px solid black;
+    border: 2px solid grey;
     border-radius: 3px;
     margin-bottom: 10px;
     padding: 0 10px;
@@ -33,7 +33,7 @@ export const ContactListBtn = styled.button`
     padding: 0;
     background-color: #3f51b5;
     color: white;
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 3px;
 
     &:hover,
