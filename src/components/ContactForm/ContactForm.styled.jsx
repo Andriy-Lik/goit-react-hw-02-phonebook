@@ -20,6 +20,11 @@ export const FormInput = styled.input`
     padding: 0;
     border: 2px solid grey;
     border-radius: 3px;
+
+    &:hover,
+    &:focus {
+        border: 2px solid skyblue; 
+    }
 `;
 
 export const FormButton = styled.button`
@@ -33,9 +38,8 @@ export const FormButton = styled.button`
     border-radius: 3px;
 
     &:hover,
-    &: focus {
+    &:focus {
         background-color: #303f9f;
-        border: 1px solid skyblue;
         scale: 1.1;
     }
 `;

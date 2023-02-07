@@ -6,9 +6,3 @@ export const Container = styled.div`
     flex-direction: column;
     max-width: 1200px;
 `;
-
-export const Title = styled.h2`
-    font-size: 30px;
-    font-weight: 500;
-    margin: 0 0 20px;
-`;

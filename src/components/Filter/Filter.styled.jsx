@@ -17,4 +17,9 @@ export const FilterInput = styled.input`
     height: 30px;
     border: 2px solid grey;
     border-radius: 3px;
+
+    &:hover,
+    &:focus {
+        border: 2px solid skyblue; 
+    }
 `;
